@@ -1,0 +1,29 @@
+*{
+    margin: 0px; 
+}
+button{
+    width: 60px;
+    height: 50px;
+    background-color: grey;
+    color: white;
+}
+button:hover{
+  background-color:rgba(169, 169, 169, 0.263);
+}
+.conteiner{
+   width: 255px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 3px;
+    
+}
+#resultado{
+    text-align: right;
+    font-size: 20px;
+}
